@@ -13,16 +13,22 @@ Bienvenido a tu repositorio centralizado de conocimiento. Este playbook reúne m
 ```text
 ├── README.md                      # Manifiesto de gestión y control de calidad
 ├── 01-agile-frameworks/           # Metodologías y Entrega de Valor
+│   ├── agile-culture-fundamentals.md # Fundamentos ágiles, cultura y roles
 │   ├── scrum-and-kanban.md        # Roles, ceremonias y cuándo usar cada flujo
 │   ├── user-stories-discovery.md  # Criterios de aceptación (Gherkin/BDD) y Story Mapping
-│   └── agile-metrics.md           # Velocity, Lead Time, Cycle Time y Burn-down charts
+│   ├── agile-metrics.md           # Velocity, Lead Time, Cycle Time y Burn-down charts
+│   └── agile-schedule-management.md # Release Plan, precedencias y dependencias de cronograma
 ├── 02-project-planning/           # Gestión del Alcance y Gobernanza
-│   ├── scope-and-wbs.md           # Estructura de Desglose de Trabajo (EDT/WBS)
+│   ├── agile-integration-management.md # Project Charter ágil, planes híbridos y lecciones
+│   ├── scope-and-wbs.md           # Estructura de Desglose de Trabajo (EDT/WBS) y MVP
+│   ├── agile-cost-management.md   # Estimación Top-down, capacity-based pricing y Agile EVM
+│   ├── agile-resource-management.md # Células multifuncionales y Servant Leadership
 │   ├── risk-management.md         # Matriz de riesgos (Mitigación de fallas en proyectos)
 │   └── stakeholders-comm.md       # Gestión de expectativas y reportes de estado
 ├── 03-software-quality-standards/ # Estándares y Gobernanza Técnica
 │   ├── iso-iec-12207.md           # Ciclo de vida del software (Procesos base)
-│   └── quality-models-iso-25010.md# Atributos de calidad (Mantenibilidad, Seguridad, Eficiencia)
+│   ├── quality-models-iso-25010.md# Atributos de calidad (Mantenibilidad, Seguridad, Eficiencia)
+│   └── agile-quality-management.md # QA vs QC, testing en la iteración (daily builds, regression)
 ├── 04-testing-strategies/         # Estrategias de Validación (El núcleo de Calidad)
 │   ├── testing-pyramid.md         # Unit, Integration, E2E y contract testing
 │   ├── ci-cd-pipelines.md         # Pipeline de integración y despliegue continuo con control de calidad
