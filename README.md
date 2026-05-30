@@ -23,6 +23,7 @@ Bienvenido a tu repositorio centralizado de conocimiento. Este playbook reúne m
 │   ├── scope-and-wbs.md           # Estructura de Desglose de Trabajo (EDT/WBS) y MVP
 │   ├── agile-cost-management.md   # Estimación Top-down, capacity-based pricing y Agile EVM
 │   ├── agile-resource-management.md # Células multifuncionales y Servant Leadership
+│   ├── roles-and-glossary.md      # Comparación de roles (PMBOK vs Agile) y glosario cruzado
 │   ├── risk-management.md         # Matriz de riesgos (Mitigación de fallas en proyectos)
 │   └── stakeholders-comm.md       # Gestión de expectativas y reportes de estado
 ├── 03-software-quality-standards/ # Estándares y Gobernanza Técnica
