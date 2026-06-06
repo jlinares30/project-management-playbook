@@ -30,12 +30,45 @@ A continuación se muestra un ejemplo de registro de riesgos típicos en el cicl
 
 ---
 
+## Tablero de Control de Riesgos (Risk Board)
+
+El **Risk Board** es la herramienta visual (inspirada en tableros Kanban) que utilizamos en el día a día para monitorear y gestionar los riesgos registrados de forma transparente y colaborativa.
+
+### Estructura del Tablero (ROAM Modificado):
+
+Las tarjetas de riesgo se clasifican por columnas según su estado actual de gestión:
+
+```mermaid
+kanban
+  Identificados
+    R04: Corrupción del alcance [Score: 12]
+  Mitigándose (En Proceso)
+    R01: Retraso en API externa [Score: 16]
+    R02: Rotación de personal [Score: 10]
+  Materializados (Acción requerida)
+    R03: Caída del servicio [Score: 12]
+  Cerrados / Mitigados
+    R00: Ejemplo de riesgo resuelto
+```
+
+* **Identificados**: Riesgos nuevos que han sido evaluados mediante la *Matriz de Probabilidad e Impacto* y están pendientes de asignación de propietario o inicio de plan de mitigación.
+* **Mitigándose (En Proceso)**: Riesgos donde el plan preventivo de mitigación está activo.
+* **Materializados (Acción Requerida)**: Riesgos que han ocurrido y requieren la ejecución inmediata del *Plan de Contingencia (Correctivo)*.
+* **Cerrados / Mitigados**: Riesgos que ya no representan una amenaza (ej. la fase de integración ya concluyó o el proveedor ya entregó).
+
+> [!TIP]
+> **Codificación por Colores en el Tablero:**
+> Utiliza etiquetas de color (*labels*) en el tablero visual para denotar la severidad obtenida en la matriz: **Rojo** para Críticos (Score 15-25), **Amarillo** para Moderados (Score 8-12) y **Verde** para Bajos (Score 1-6).
+
+---
+
 ## Ciclo de Gestión de Riesgos
 
 ```mermaid
 graph TD
     A[1. Identificar Riesgos] --> B[2. Evaluar Probabilidad e Impacto]
     B --> C[3. Definir Planes de Mitigación/Contingencia]
-    C --> D[4. Monitorear e Inspeccionar periódicamente]
+    C --> D[4. Incorporar y Monitorear en el Risk Board]
     D --> A
 ```
+

@@ -56,6 +56,7 @@ Este glosario centraliza los términos clave utilizados a lo largo de este playb
 ## R
 
 * **[Release Plan (Plan de Lanzamiento)](01-agile-frameworks/agile-schedule-management.md)**: Hoja de ruta ágil de alto nivel que proyecta qué funcionalidades se entregarán en una serie de iteraciones futuras.
+* **[Risk Board (Tablero de Control de Riesgos)](02-project-planning/risk-management.md#tablero-de-control-de-riesgos-risk-board)**: Herramienta visual de gestión (inspirada en tableros Kanban) utilizada para monitorear, priorizar y gestionar colaborativamente el estado de los riesgos a lo largo del proyecto.
 
 ## T
 
