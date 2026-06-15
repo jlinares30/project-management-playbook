@@ -68,8 +68,18 @@ Este compendio centraliza, explica y ejemplifica las normas ISO clave mencionada
 * **Explicación sencilla:** Las startups y PYMEs no tienen el dinero ni el personal para implementar los 30 procesos de la ISO 12207. Esta norma resume lo esencial en dos procesos clave: Gestión de Proyectos y Entrega de Software.
 * **Ejemplo práctico:** Una startup de 5 desarrolladores adopta la ISO 29110. En lugar de documentar cientos de páginas de arquitectura, utilizan plantillas de 1 página para el Project Charter, definen un flujo sencillo de control de cambios, y unifican su repositorio de código en una sola rama para agilizar despliegues.
 * **Integración Ágil:** Ideal para startups que usan Scrum o Kanban y necesitan demostrar formalidad de procesos ante grandes clientes corporativos o licitaciones públicas sin perder agilidad.
+* **Cuadro Comparativo con ISO/IEC 12207:**
+
+| Característica | ISO/IEC 12207 | ISO/IEC 29110 (Perfil Básico) |
+| :--- | :--- | :--- |
+| **Audiencia Objetivo** | Medianas y grandes organizaciones, proyectos complejos. | Micro y pequeñas empresas (VSEs - hasta 25 personas). |
+| **Enfoque de Procesos** | Todo el ciclo de vida completo (más de 30 procesos detallados). | Foco simplificado en **2 procesos**: Gestión de Proyectos (PM) e Implementación de Software (SI). |
+| **Procesos Organizacionales** | Incluye gestión de portafolio, recursos humanos, conocimiento e infraestructura. | No los incluye de manera formal, dejando que la organización los defina libremente. |
+| **Acuerdos y Contratos** | Procesos formales de adquisición y suministro. | Simplificados dentro de la gestión del proyecto y compromisos con el cliente. |
+| **Mantenimiento y Soporte** | Proceso independiente y detallado ([ISO/IEC 14764](file:///d:/Jorge/project-management-playbook/03-software-quality-standards/iso-standards-compendium.md#7-iso-iec-14764-mantenimiento-de-software)). | Integrado de forma simplificada en el ciclo de vida de la entrega. |
 
 ---
+
 
 ## 7. ISO/IEC 14764: Mantenimiento de Software
 
