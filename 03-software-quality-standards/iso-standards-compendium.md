@@ -83,23 +83,93 @@ Este compendio centraliza, explica y ejemplifica las normas ISO clave mencionada
 
 ## 7. ISO/IEC 14764: Mantenimiento de Software
 
-* **¿Qué es?** El estándar que proporciona directrices y clasificaciones para la fase de **mantenimiento del software** tras su puesta en producción.
-* **Explicación sencilla:** Clasifica y define las reglas de cómo actuar frente a las modificaciones del sistema una vez que está operativo, dividiéndolo en 4 tipos de mantenimiento:
-  1. **Correctivo (Corrective):** Corregir bugs que fallan en producción (ej. solucionar una caída del servidor).
-  2. **Preventivo (Preventive):** Modificar el código antes de que falle (ej. refactorizar un bloque de código legacy difícil de entender).
-  3. **Adaptativo (Adaptive):** Adaptar el sistema a nuevos entornos (ej. migrar la base de datos de un servidor local a AWS).
-  4. **Perfectivo (Perfective):** Añadir nuevas características o mejoras solicitadas por el cliente (ej. añadir un botón de pago con Apple Pay).
-* **Ejemplo práctico:** Un equipo de soporte recibe un ticket en el que el botón de registro se queda congelado. Clasifican la tarea como *Mantenimiento Correctivo*, programan el parche, realizan pruebas de regresión automáticas para validar que no afecte otras secciones, y despliegan la corrección.
-* **Integración Ágil:** Ayuda a los Product Owners a priorizar y categorizar el Sprint Backlog entre historias de usuario nuevas (Perfectivo/Adaptativo), refactorizaciones (Preventivo) y resolución de bugs (Correctivo).
+* **¿Qué es?** El estándar internacional que proporciona directrices detalladas para la gestión, planificación, ejecución y control de la fase de **mantenimiento del software** tras su puesta en producción.
+* **Explicación sencilla:** Define cómo debe reaccionar y organizarse el equipo técnico cuando el software ya está siendo usado por clientes reales y requiere cambios, mejoras o correcciones.
 
----
+### Los 4 Tipos de Mantenimiento de Software
+La norma clasifica las modificaciones del sistema en cuatro tipos principales:
+1. **Correctivo (Corrective):** Corrección reactiva de fallos o bugs detectados en producción (ej. solucionar un error de cálculo en la pasarela de pagos).
+2. **Preventivo (Preventive):** Modificación del software para mejorar su mantenibilidad o prevenir fallos antes de que ocurran (ej. refactorización de código complejo, actualización de dependencias obsoletas).
+3. **Adaptativo (Adaptive):** Modificación para mantener el software operativo en entornos tecnológicos cambiantes (ej. migrar la aplicación de servidores locales a AWS, adaptarla a una nueva versión de iOS o Android).
+4. **Perfectivo (Perfective):** Modificaciones evolutivas destinadas a añadir nuevas funcionalidades, mejorar el rendimiento o la usabilidad a petición del negocio o el cliente (ej. implementar autenticación biométrica en el login).
+
+### Las 6 Actividades Clave de la Norma
+La ISO/IEC 14764 establece que un proceso formal de mantenimiento debe ejecutar seis actividades fundamentales:
+
+```mermaid
+flowchart TD
+    A[1. Implementación del Proceso] --> B[2. Análisis de Problemas y Modificaciones]
+    B --> C[3. Implementación de la Modificación]
+    C --> D[4. Revisión y Aceptación del Mantenimiento]
+    D --> E[5. Migración si aplica]
+    D --> F[6. Retiro del Software si aplica]
+```
+
+1. **Implementación del Proceso:** Planificación inicial de la estrategia de soporte, definición del flujo de recepción de tickets, y establecimiento de herramientas para la gestión de configuración y control de versiones.
+2. **Análisis de Problemas y Modificaciones:** Recepción de la solicitud, replicación y validación del fallo en entornos controlados, estimación de impacto técnico/costo, y obtención de la autorización formal para aplicar el cambio.
+3. **Implementación de la Modificación:** Diseño, codificación y pruebas unitarias/integradas del cambio (utilizando los mismos estándares de calidad empleados en la fase de desarrollo).
+4. **Revisión y Aceptación del Mantenimiento:** Validación técnica y funcional del cambio por un equipo de QA o el cliente, garantizando la integridad de todo el sistema.
+5. **Migración:** Planificación y ejecución del traslado del software a un nuevo entorno físico o virtual en caso de obsolescencia tecnológica, garantizando la persistencia y compatibilidad de los datos históricos.
+6. **Retiro del Software (Desinstalación):** Plan de cese de operaciones de un módulo o sistema entero, notificando a los usuarios finales, archivando los datos sensibles de forma segura y eliminando dependencias activas.
+
+* **Ejemplo práctico:** Un usuario reporta mediante Jira que el portal de facturación rechaza tarjetas extranjeras. El equipo de soporte técnico valida el problema (Análisis), determina que es una falla de código (Mantenimiento Correctivo), realiza el ajuste en el microservicio de pagos (Implementación), ejecuta las pruebas de regresión automatizadas (Aceptación) y despliega el hotfix a producción.
+* **Integración Ágil:** Permite a los Product Owners y Scrum Masters clasificar y priorizar el *Sprint Backlog* de soporte técnico, asignando puntos de historia y definiendo *Definición de Hecho (DoD)* rigurosos para cada tipo de intervención de mantenimiento.
 
 ## 8. ISO/IEC 15939: Proceso de Medición de Software
 
-* **¿Qué es?** El estándar que define las actividades y tareas necesarias para planificar, recopilar, analizar y reportar **métricas en proyectos de software**.
-* **Explicación sencilla:** Te ayuda a definir qué vas a medir, cómo vas a recopilar el dato de forma objetiva, y cómo usar esos gráficos para tomar decisiones ejecutivas en lugar de suposiciones.
-* **Ejemplo práctico:** Un departamento de ingeniería quiere medir la calidad de sus entregas. Define la métrica *Densidad de Defectos* (número de bugs detectados en QA por cada 100 puntos de historia). El pipeline de CI recopila automáticamente el dato en cada sprint y genera un tablero de control en Grafana para el CTO.
-* **Integración Ágil:** Proporciona el marco analítico para métricas como la *Velocidad del Equipo*, *Cycle Time*, *Lead Time* y el *Burn-down chart*, asegurando que la toma de decisiones del equipo esté fundamentada en datos duros.
+* **¿Qué es?** El estándar internacional que define las actividades, tareas y directrices para planificar, recopilar, analizar y reportar **métricas en proyectos de software**, con el fin de guiar el Monitoreo y Control (M&C).
+* **Explicación sencilla:** Te ayuda a definir qué vas a medir, cómo recopilar los datos objetivamente y cómo usar indicadores en lugar de suposiciones para tomar decisiones.
+
+### Modelo de Estructuración de Métricas (Proyecto vs. Producto)
+De acuerdo con las mejores prácticas y el ciclo de vida del software, las métricas se dividen formalmente en dos grandes grupos:
+
+```mermaid
+graph TD
+    A[Métricas de Software] --> B[Métricas de Proyecto - Mét. PROY]
+    A --> C[Métricas de Producto - Mét. PROD]
+
+    B --> B1[Monitoreo y Control del C.V.P. de forma transversal]
+    B --> B2["% Desviación de Gasto (ej. Planificado vs Real)"]
+    
+    C --> C1[Servicios en Producción]
+    C --> C2["% Satisfacción del Cliente/Organización"]
+    C --> C3["% Eficiencia Operativa (Infraestructura y Sistema)"]
+```
+
+#### A. Métricas de Proyecto (Mét. PROY)
+Monitorean de forma transversal el **Ciclo de Vida del Proyecto (C.V.P.)** desde la planificación hasta el cierre. Se enfocan en el proceso de **Monitoreo y Control (M&C)** de recursos, cronograma y costos.
+* **Porcentaje de Desviación de Gasto (% Gasto):** Mide el desvío financiero del proyecto comparando el presupuesto Planificado ($P$) vs. el costo Real ($R$).
+  $$\% \text{ Desviación Gasto} = \left( \frac{\text{Costo Real} - \text{Presupuesto Planificado}}{\text{Presupuesto Planificado}} \right) \times 100$$
+  * *Ejemplo (de pizarra):* Si el presupuesto planificado es de $20k y el real es de $30k, la desviación es del $+50\%$.
+
+#### B. Métricas de Producto y Operación (Mét. PROD)
+Monitorean el rendimiento del software ya desplegado como un **Servicio en Producción**.
+* **% de Satisfacción del Cliente/Organización:** Nivel de aceptación del software por parte de los usuarios finales y la organización.
+* **% de Eficiencia Operativa (% de ef. op.):** Rendimiento de la infraestructura física o en la nube (ej. Uptime/Disponibilidad, tasa de error de red, uso de CPU/RAM).
+
+---
+
+### Clasificación: Implementación vs. Post-Implementación
+El control del proyecto exige métricas diferenciadas en el desarrollo activo (Implementación) y en la puesta en marcha (Post-Implementación):
+
+```mermaid
+flowchart LR
+    A[Fase de Implementación] -- Despliegue --> B[Fase de Post-Implementación]
+    B -- Feedback Loop / Retroalimentación --> A
+```
+
+| Categoría | Métrica | Tipo de Marco | Descripción / Fórmula |
+| :--- | :--- | :--- | :--- |
+| **Implementación** | **% de Requisitos Revisados (% Req. Rev.)** | Tradicional / RUP (12207/29110/14764) | Grado de avance en la revisión, refinamiento y trazabilidad de los requisitos de software. |
+| **Implementación** | **% de Pruebas de Aceptación (% Prueb. Acept.)** | Tradicional / RUP (12207/29110/14764) | Casos de prueba de aceptación completados con éxito frente al total diseñado. |
+| **Implementación** | **% de Historias de Usuario terminadas (% H.U. term.)** | Ágil (Scrum) | Porcentaje de entregables / historias completadas respecto al backlog planificado del Sprint. |
+| **Implementación** | **% de elementos del Backlog logrados/priorizados** | Ágil (Scrum) | Eficiencia en la priorización del backlog de producto por parte del Product Owner. |
+| **Post-Implementación** | **% de Satisfacción del Cliente** | Transversal / Cliente | Nivel de satisfacción recogido mediante encuestas CSAT post-entrega. |
+| **Post-Implementación** | **% de Eficiencia del Software / Cliente** | Transversal / Cliente | Mide la reducción de tiempo/esfuerzo del negocio del cliente al usar el nuevo software. |
+| **Post-Implementación** | **% de Uso del Software / Cliente (Adopción)** | Transversal / Cliente | Nivel de adopción real del software en los flujos diarios del negocio. |
+
+* **Feedback Loop (Retroalimentación):** La post-implementación retroalimenta a la implementación. Los errores encontrados, estadísticas de rendimiento y problemas de adopción analizados en producción (Post-Implementación) sirven para refinar los requisitos, planes y pruebas del siguiente ciclo de desarrollo (Implementación).
+* **Integración Ágil:** Proporciona los indicadores cuantitativos necesarios para los tableros de control en Grafana o Jira, vinculando los objetivos comerciales con el avance técnico del equipo.
 
 ---
 
