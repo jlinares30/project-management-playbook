@@ -28,9 +28,14 @@ Bienvenido a tu repositorio centralizado de conocimiento. Este playbook reúne m
 │   ├── stakeholders-comm.md       # Gestión de expectativas y reportes de estado
 │   └── agile-procurement-management.md # Gestión de adquisiciones y contratos ágiles
 ├── 03-software-quality-standards/ # Estándares y Gobernanza Técnica
-│   ├── iso-iec-12207.md           # Ciclo de vida del software (Procesos base)
+│   ├── quality-fundamentals-gurus.md # Teoría de calidad, Garvin, gurús, costos y curva de IBM
+│   ├── iso-iec-12207.md           # Estándar oficial ISO/IEC 12207:2017 (30 procesos y 4 grupos)
 │   ├── quality-models-iso-25010.md# Atributos de calidad (Mantenibilidad, Seguridad, Eficiencia)
-│   └── agile-quality-management.md # QA vs QC, testing en la iteración (daily builds, regression)
+│   ├── agile-quality-management.md # QA vs QC, testing en la iteración (daily builds, regression)
+│   ├── process-modeling-bpmn.md   # Modelado de procesos, SIPOC y notación BPMN 2.0 (Bizagi)
+│   ├── information-security-iso27001.md # Tríada CIA, SGSI y controles de seguridad (ISO 27001/27002)
+│   ├── process-capability-maturity.md # Modelo de capacidad y madurez de procesos (ISO 15504 SPICE)
+│   └── iso-standards-compendium.md # Compendio de normas ISO (9001, 12207, 25010, 27001, etc.)
 ├── 04-testing-strategies/         # Estrategias de Validación (El núcleo de Calidad)
 │   ├── testing-pyramid.md         # Unit, Integration, E2E y contract testing
 │   ├── ci-cd-pipelines.md         # Pipeline de integración y despliegue continuo con control de calidad

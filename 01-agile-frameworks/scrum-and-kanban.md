@@ -64,3 +64,20 @@ graph TD
 | **Métrica Principal** | Velocidad (puntos de historia por Sprint). | Lead Time, Cycle Time y rendimiento general. |
 | **Roles predefinidos** | Sí (PO, SM, Developers). | No requiere roles específicos (respeta roles existentes). |
 | **Enfoque** | Enfoque iterativo en metas y sprints de producto. | Enfoque continuo en reducir cuellos de botella y optimizar flujo. |
+
+---
+
+## Lean Kanban y la Eliminación de Desperdicios (Muda)
+
+El marco Kanban no es simplemente un tablero visual; tiene sus raíces en el sistema **Just-In-Time (JIT)** y el pensamiento *Lean* desarrollado por **Taiichi Ohno** en Toyota. El objetivo central de Lean es maximizar la entrega de valor mediante la eliminación de cualquier actividad que consuma recursos sin aportar valor al cliente final (conocido como *Muda* o desperdicio).
+
+En la ingeniería de software, los 7 desperdicios de manufactura se mapean de la siguiente manera:
+
+1. **Exceso de Producción (Overproduction) $\rightarrow$ Funcionalidades Innecesarias:** Desarrollar código o características que el cliente final no necesita o no ha solicitado (antipatrón de sobrediseño y violación de la regla *YAGNI - You Aren't Gonna Need It*).
+2. **Tiempo de Espera (Waiting) $\rightarrow$ Bloqueos en el Flujo:** Desarrolladores esperando por la definición de requisitos, aprobaciones de Pull Requests, despliegues lentos en servidores, o respuesta del equipo de QA.
+3. **Transporte (Transportation) $\rightarrow$ Handoffs de Tareas:** Traspasos excesivos de responsabilidades entre silos funcionales (ej. Analista $\rightarrow$ Desarrollador $\rightarrow$ Tester $\rightarrow$ DevOps), lo que incrementa el riesgo de pérdida de contexto y mala comunicación.
+4. **Procesamiento Innecesario (Overprocessing) $\rightarrow$ Burocracia y Refactorización Estéril:** Documentación excesiva e inútil, o refactorización de código que ya funciona y cumple los requisitos de calidad sin aportar mejoras tangibles.
+5. **Existencias / Inventario (Inventory) $\rightarrow$ Trabajo No Terminado (WIP Alto):** Requisitos acumulados en el Backlog sin desarrollar, código desarrollado pero no probado, o software probado pero no desplegado en producción. Es inventario inmovilizado que no genera valor.
+6. **Movimiento (Motion) $\rightarrow$ Cambios de Contexto (Context Switching):** Desenfoque del programador al saltar constantemente entre múltiples tareas activas, reuniones irrelevantes o interrupciones constantes, lo que disminuye la eficiencia y aumenta la fatiga mental.
+7. **Defectos (Defects) $\rightarrow$ Bugs y Retrabajo (Rework):** Código con fallos técnicos que requiere diagnosticar, corregir, volver a probar y redesplegar. Es el desperdicio más costoso en el desarrollo de software.
+
