@@ -25,7 +25,8 @@ Bienvenido a tu repositorio centralizado de conocimiento. Este playbook reúne m
 │   ├── agile-resource-management.md # Células multifuncionales y Servant Leadership
 │   ├── roles-and-glossary.md      # Comparación de roles (PMBOK vs Agile) y glosario cruzado
 │   ├── risk-management.md         # Matriz de riesgos (Mitigación de fallas en proyectos)
-│   └── stakeholders-comm.md       # Gestión de expectativas y reportes de estado
+│   ├── stakeholders-comm.md       # Gestión de expectativas y reportes de estado
+│   └── agile-procurement-management.md # Gestión de adquisiciones y contratos ágiles
 ├── 03-software-quality-standards/ # Estándares y Gobernanza Técnica
 │   ├── iso-iec-12207.md           # Ciclo de vida del software (Procesos base)
 │   ├── quality-models-iso-25010.md# Atributos de calidad (Mantenibilidad, Seguridad, Eficiencia)
