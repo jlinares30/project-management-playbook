@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 *.pdf
-*.png
-=======
-*.pdf
+*.pptx
 /node_modules
 package.json
 package-lock.json
@@ -128,4 +125,3 @@ $RECYCLE.BIN/
 # Temporary files
 *.tmp
 *.bak
->>>>>>> 7e643b1f517574f1bb3a9c287bce8da9ff26f625
