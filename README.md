@@ -26,7 +26,8 @@ Bienvenido a tu repositorio centralizado de conocimiento. Este playbook reúne m
 │   ├── roles-and-glossary.md      # Comparación de roles (PMBOK vs Agile) y glosario cruzado
 │   ├── risk-management.md         # Matriz de riesgos (Mitigación de fallas en proyectos)
 │   ├── stakeholders-comm.md       # Gestión de expectativas y reportes de estado
-│   └── agile-procurement-management.md # Gestión de adquisiciones y contratos ágiles
+│   ├── agile-procurement-management.md # Gestión de adquisiciones y contratos ágiles
+│   └── agile-portfolio-management.md # Gestión ágil de portafolios (LPM, WSJF, OKRs, PMO)
 ├── 03-software-quality-standards/ # Estándares y Gobernanza Técnica
 │   ├── quality-fundamentals-gurus.md # Teoría de calidad, Garvin, gurús, costos y curva de IBM
 │   ├── iso-iec-12207.md           # Estándar oficial ISO/IEC 12207:2017 (30 procesos y 4 grupos)

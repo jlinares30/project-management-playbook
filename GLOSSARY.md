@@ -8,6 +8,8 @@ Este glosario centraliza los términos clave utilizados a lo largo de este playb
 
 * **[Aseguramiento de la Calidad (QA)](03-software-quality-standards/agile-quality-management.md)**: Enfoque preventivo orientado a procesos para evitar que surjan defectos en el código.
 * **[Agile EVM (Earned Value Management)](02-project-planning/agile-cost-management.md)**: Técnica adaptativa para medir el progreso real del proyecto comparando los puntos de historia completados frente al Release Plan.
+* **[Agile Portfolio Management (APM)](02-project-planning/agile-portfolio-management.md)**: Práctica para seleccionar, priorizar, financiar y supervisar un conjunto de iniciativas alineadas con la estrategia organizacional.
+* **[Agile PMO (EPMO)](02-project-planning/agile-portfolio-management.md#6-evolucion-del-gobierno-de-la-pmo-tradicional-a-la-agile-pmo)**: Oficina de proyectos ágil orientada a la facilitación, empoderamiento de equipos y optimización del flujo de valor.
 
 ## B
 
@@ -23,6 +25,7 @@ Este glosario centraliza los términos clave utilizados a lo largo de este playb
 * **[Calidad](03-software-quality-standards/quality-fundamentals-gurus.md)**: Grado en el que un conjunto de características inherentes a un producto o servicio cumple con los requisitos establecidos (satisfacción de necesidades implícitas o explícitas).
 * **[Costo de la Calidad (CoQ)](03-software-quality-standards/quality-fundamentals-gurus.md)**: Marco financiero que calcula el costo en el que incurre una organización por no realizar correctamente el trabajo a la primera, englobando costos de prevención, evaluación, fallas internas y externas.
 * **[Control de Calidad (QC)](03-software-quality-standards/agile-quality-management.md)**: Práctica correctiva orientada a producto enfocada en la detección e inspección de errores en software ya construido.
+* **[Chapter](02-project-planning/agile-portfolio-management.md#a-spotify-estructura-de-squads-y-tribus)**: Grupo transversal dentro de una Tribu en el modelo Spotify que reúne personas con el mismo rol técnico.
 * **[Cycle Time (Tiempo de Ciclo)](01-agile-frameworks/agile-metrics.md)**: Tiempo total transcurrido desde que el equipo comienza a trabajar activamente en una tarea hasta que se completa.
 * **[Cynefin Framework](01-agile-frameworks/agile-culture-fundamentals.md#criterio-de-decisión-cuándo-aplicar-agile-marco-cynefin)**: Marco de sentido (*sense-making*) de Dave Snowden que categoriza los problemas en 4 dominios (Claro, Complicado, Complejo y Caótico) para justificar técnicamente el uso de enfoques ágiles adaptativos vs. predictivos.
 
@@ -40,6 +43,11 @@ Este glosario centraliza los términos clave utilizados a lo largo de este playb
 
 * **[Gherkin (BDD)](01-agile-frameworks/user-stories-discovery.md)**: Lenguaje estructurado estructurado en la sintaxis *Given-When-Then* que permite describir los criterios de aceptación en un formato comprensible para el negocio y automatizable.
 * **[Grado (Grade)](03-software-quality-standards/quality-fundamentals-gurus.md)**: Categoría o clasificación de diseño que se asigna a entregables con el mismo uso funcional pero con características técnicas o atributos de diseño diferentes.
+* **[Guild (Gremio)](02-project-planning/agile-portfolio-management.md#a-spotify-estructura-de-squads-y-tribus)**: Comunidad de interés abierta para toda la organización dentro del modelo Spotify.
+
+## H
+
+* **[Horizontes de Innovación](02-project-planning/agile-portfolio-management.md#3-estructura-del-portafolio-los-3-horizontes-de-innovacion)**: Enfoque de McKinsey para balancear las inversiones de portafolio en corto (H1), mediano (H2) y largo plazo (H3).
 
 ## I
 
@@ -59,22 +67,31 @@ Este glosario centraliza los términos clave utilizados a lo largo de este playb
 ## P
 
 * **[Post-Mortem (Blameless)](05-case-studies-templates/post-mortem-template.md)**: Plantilla y proceso de análisis retrospectivo enfocado en identificar las causas raíz de fallas en producción sin buscar culpables individuales.
+* **[PI Planning (SAFe)](02-project-planning/agile-portfolio-management.md#5-marcos-de-planificación-pi-planning-safe)**: Evento periódico de planificación y alineación cross-team de dos días para el incremento de programa.
 * **[Project Charter Dinámico](02-project-planning/agile-integration-management.md)**: Acta de constitución de proyecto ágil que actúa como un artefacto vivo enfocado en la visión y metas, permitiendo flexibilidad de alcance.
 
 ## R
 
 * **[Release Plan (Plan de Lanzamiento)](01-agile-frameworks/agile-schedule-management.md)**: Hoja de ruta ágil de alto nivel que proyecta qué funcionalidades se entregarán en una serie de iteraciones futuras.
+* **[ROAM](02-project-planning/agile-portfolio-management.md#5-marcos-de-planificación-pi-planning-safe)**: Método de clasificación de riesgos en PI Planning en categorías Resolved, Owned, Accepted y Mitigated.
 * **[Risk Board (Tablero de Control de Riesgos)](02-project-planning/risk-management.md#tablero-de-control-de-riesgos-risk-board)**: Herramienta visual de gestión (inspirada en tableros Kanban) utilizada para monitorear, priorizar y gestionar colaborativamente el estado de los riesgos a lo largo del proyecto.
 
 ## S
 
 * **[SGSI (Sistema de Gestión de la Seguridad de la Información)](03-software-quality-standards/information-security-iso27001.md)**: Conjunto de políticas y procedimientos basados en la norma ISO/IEC 27001 orientados a gestionar, controlar y mitigar de forma sistemática los riesgos de seguridad sobre los activos de información.
+* **[Squad](02-project-planning/agile-portfolio-management.md#a-spotify-estructura-de-squads-y-tribus)**: Célula autónoma y multidisciplinaria de 6 a 12 personas con una misión clara dentro del modelo Spotify.
 
 ## T
 
+* **[Tribu (Tribe)](02-project-planning/agile-portfolio-management.md#a-spotify-estructura-de-squads-y-tribus)**: Colección de Squads autónomos que trabajan en un área de negocio relacionada en el modelo Spotify.
 * **[Tríada CIA](03-software-quality-standards/information-security-iso27001.md)**: El pilar fundamental de la seguridad de la información compuesto por tres principios básicos: Confidencialidad, Integridad y Disponibilidad.
 * **[Transferencia de Conocimiento Tácito](02-project-planning/agile-integration-management.md)**: El intercambio de habilidades complejas y "know-how" no documentables mediante interacciones directas como pair programming o code reviews.
 
 ## V
 
 * **[Velocity (Velocidad)](01-agile-frameworks/agile-metrics.md)**: Medida del rendimiento histórico del equipo Scrum expresada en puntos de historia completados en promedio por Sprint.
+* **[Value Stream Funding](02-project-planning/agile-portfolio-management.md#2-principios-clave-del-agile-portfolio)**: Modelo de financiamiento por flujos de valor/productos en lugar de proyectos individuales.
+
+## W
+
+* **[WSJF (Weighted Shortest Job First)](02-project-planning/agile-portfolio-management.md#b-wsjf-weighted-shortest-job-first)**: Método cuantitativo de priorización ágil que calcula la relación entre el costo del retraso (Cost of Delay) y el tamaño/duración del trabajo.
