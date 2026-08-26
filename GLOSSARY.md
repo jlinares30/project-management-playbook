@@ -11,6 +11,7 @@ Este glosario centraliza los términos clave utilizados a lo largo de este playb
 
 ## B
 
+* **[Being Agile vs. Doing Agile](01-agile-frameworks/agile-culture-fundamentals.md#hacer-agile-vs-ser-agile-la-cultura-del-empirismo)**: Diferencia entre la adopción superficial de rituales/herramientas (*Doing Agile*, ~20% impacto) y la transformación cultural basada en empirismo, inspección, adaptación y liderazgo distribuido (*Being Agile*, ~200% impacto).
 * **[Brooks' Law (Ley de Brooks)](02-project-planning/agile-cost-management.md)**: Principio que postula que añadir desarrolladores a un proyecto de software retrasado suele retrasarlo aún más a corto plazo.
 * **[BPMN 2.0 (Business Process Model and Notation)](03-software-quality-standards/process-modeling-bpmn.md)**: Estándar gráfico internacional de modelado para representar visualmente la secuencia de actividades, flujos de trabajo y mensajes en los procesos de negocio.
 * **[Built-in Quality (Calidad Integrada)](README.md)**: Disciplina diaria que asegura que la calidad no es una fase final de inspección, sino una práctica de ingeniería integrada desde el diseño inicial.
@@ -23,6 +24,7 @@ Este glosario centraliza los términos clave utilizados a lo largo de este playb
 * **[Costo de la Calidad (CoQ)](03-software-quality-standards/quality-fundamentals-gurus.md)**: Marco financiero que calcula el costo en el que incurre una organización por no realizar correctamente el trabajo a la primera, englobando costos de prevención, evaluación, fallas internas y externas.
 * **[Control de Calidad (QC)](03-software-quality-standards/agile-quality-management.md)**: Práctica correctiva orientada a producto enfocada en la detección e inspección de errores en software ya construido.
 * **[Cycle Time (Tiempo de Ciclo)](01-agile-frameworks/agile-metrics.md)**: Tiempo total transcurrido desde que el equipo comienza a trabajar activamente en una tarea hasta que se completa.
+* **[Cynefin Framework](01-agile-frameworks/agile-culture-fundamentals.md#criterio-de-decisión-cuándo-aplicar-agile-marco-cynefin)**: Marco de sentido (*sense-making*) de Dave Snowden que categoriza los problemas en 4 dominios (Claro, Complicado, Complejo y Caótico) para justificar técnicamente el uso de enfoques ágiles adaptativos vs. predictivos.
 
 ## D
 
