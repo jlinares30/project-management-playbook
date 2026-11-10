@@ -14,6 +14,7 @@ Este glosario centraliza los términos clave utilizados a lo largo de este playb
 
 ## B
 
+* **[Being Agile vs. Doing Agile](01-agile-frameworks/agile-culture-fundamentals.md#hacer-agile-vs-ser-agile-la-cultura-del-empirismo)**: Diferencia entre la adopción superficial de rituales/herramientas (*Doing Agile*, ~20% impacto) y la transformación cultural basada en empirismo, inspección, adaptación y liderazgo distribuido (*Being Agile*, ~200% impacto).
 * **[Brooks' Law (Ley de Brooks)](02-project-planning/agile-cost-management.md)**: Principio que postula que añadir desarrolladores a un proyecto de software retrasado suele retrasarlo aún más a corto plazo.
 * **[BPMN 2.0 (Business Process Model and Notation)](03-software-quality-standards/process-modeling-bpmn.md)**: Estándar gráfico internacional de modelado para representar visualmente la secuencia de actividades, flujos de trabajo y mensajes en los procesos de negocio.
 * **[Built-in Quality (Calidad Integrada)](README.md)**: Disciplina diaria que asegura que la calidad no es una fase final de inspección, sino una práctica de ingeniería integrada desde el diseño inicial.
@@ -29,6 +30,7 @@ Este glosario centraliza los términos clave utilizados a lo largo de este playb
 * **[Clases de Servicio](01-agile-frameworks/kanban-method-statik.md)**: Clasificación de los ítems de trabajo en Kanban (Expedito, Fecha fija, Estándar, Intangible) que define políticas de atención distintas según su costo de la demora.
 * **[Costo de la Demora (Cost of Delay)](01-agile-frameworks/kanban-method-statik.md)**: Impacto económico de retrasar la entrega de un ítem; criterio base para asignar clases de servicio y calcular el WSJF.
 * **[Cycle Time (Tiempo de Ciclo)](01-agile-frameworks/agile-metrics.md)**: Tiempo total transcurrido desde que el equipo comienza a trabajar activamente en una tarea hasta que se completa.
+* **[Cynefin Framework](01-agile-frameworks/agile-culture-fundamentals.md#criterio-de-decisión-cuándo-aplicar-agile-marco-cynefin)**: Marco de sentido (*sense-making*) de Dave Snowden que categoriza los problemas en 4 dominios (Claro, Complicado, Complejo y Caótico) para justificar técnicamente el uso de enfoques ágiles adaptativos vs. predictivos.
 
 ## D
 

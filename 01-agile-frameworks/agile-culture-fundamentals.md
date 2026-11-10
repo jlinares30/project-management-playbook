@@ -46,22 +46,67 @@ El Manifiesto Ágil (2001) define cuatro valores fundamentales. Cada valor tiene
 
 ---
 
+## Los 12 Principios del Manifiesto Ágil y su Aplicación en Ingeniería
+
+Mientras que los 4 valores establecen la filosofía, los 12 principios guían la ejecución técnica y operativa:
+
+| # | Principio Ágil | Enfoque Operativo / Ingeniería | Antipatrón Organizacional |
+| :-: | :--- | :--- | :--- |
+| **1** | Satisfacción del cliente mediante entrega temprana y continua de valor. | Despliegues frecuentes de incrementos funcionales con feedback temprano. | Entregas *Big Bang* al final de meses de desarrollo sin validación. |
+| **2** | Aceptación de requisitos cambiantes como ventaja competitiva. | Arquitecturas modulares, desacopladas y *Product Backlog* priorizado dinámicamente. | Resistencia y penalizaciones contractuales ante cualquier cambio de alcance. |
+| **3** | Entrega frecuente de software funcionando (semanas a meses). | Integración y Despliegue Continuo (CI/CD) con cadencias cortas (1-4 semanas). | Ciclos largos de meses donde el código vive en ramas sin integrar. |
+| **4** | Colaboración diaria entre el negocio y el equipo de desarrollo. | Sesiones de refinamiento conjuntas, *User Story Mapping* e interacción constante. | Comunicación aislada vía tickets estáticos o silos funcionales burocráticos. |
+| **5** | Construcción de proyectos alrededor de individuos motivados y con apoyo. | Entorno de seguridad psicológica, autonomía técnica y herramientas adecuadas. | Microgestión, cultura de amedrentamiento y asignación unilateral de tareas. |
+| **6** | Comunicación cara a cara (o síncrona directa) como método más eficaz. | Dailies enfocadas, pair programming y comunicación directa sin intermediarios. | Cadenas interminables de correos burocráticos para resolver dudas simples. |
+| **7** | Software funcionando como medida primordial de progreso. | Medir valor por *features* desplegadas y probadas según el *Definition of Done*. | Reportar avance basado en % de horas consumidas o diagramas de Gantt teóricos. |
+| **8** | Promoción del ritmo de desarrollo sostenible (*sustainable pace*). | Gestión de capacidad (*velocity* real), prevención del *burnout* y rotación. | Horas extras sistemáticas (*crunch time*) como método estándar de planificación. |
+| **9** | Atención continua a la excelencia técnica y al buen diseño. | Refactorización continua, pruebas automatizadas, patrones limpios y deuda técnica controlada. | Sacrificar calidad y arquitectura para "cumplir la fecha", acumulando deuda letal. |
+| **10** | Simplicidad: maximizar la cantidad de trabajo no realizado. | Desarrollar solo el MVP/incremento necesario; eliminar código o funciones innecesarias. | Sobreingeniería (*overengineering*) y desarrollo de *features* hipotéticas no solicitadas. |
+| **11** | Equipos autoorganizados generan las mejores arquitecturas y diseños. | Empoderamiento técnico del equipo para definir el "Cómo" resolver el problema. | Directivas técnicas centralizadas impuestas sin consultar a quienes implementan. |
+| **12** | Reflexión periódica para ajustar y perfeccionar el comportamiento. | Retrospectivas de Sprint con planes de acción medibles y mejora continua aplicada. | Ignorar lecciones aprendidas y repetir los mismos fallos operativos ciclo tras ciclo. |
+
+---
+
+## Criterio de Decisión: Cuándo Aplicar Agile (Marco Cynefin)
+
+Para discernir objetivamente qué enfoque de gestión utilizar (Predictivo vs. Adaptativo), el **Marco Cynefin (Dave Snowden)** clasifica los problemas en 4 dominios según su nivel de incertidumbre y relación causa-efecto:
+
+```mermaid
+graph LR
+    subgraph Cynefin Framework
+        A[<b>COMPLEJO</b><br/><i>Emergente</i><br/>• Sonda - Percibe - Responde<br/>• Territorio de <b>Agile / Scrum</b>] 
+        B[<b>COMPLICADO</b><br/><i>Buenas Prácticas</i><br/>• Percibe - Analiza - Responde<br/>• Territorio de <b>Expertos / Análisis</b>]
+        C[<b>CAÓTICO</b><br/><i>Novedoso</i><br/>• Actúa - Percibe - Responde<br/>• Territorio de <b>Respuesta a Incidentes</b>]
+        D[<b>CLARO / SIMPLE</b><br/><i>Mejores Prácticas</i><br/>• Percibe - Categoriza - Responde<br/>• Territorio de <b>Predictivo / Automatización</b>]
+    end
+```
+
+| Dominio Cynefin | Naturaleza del Problema | Estrategia de Gestión | Enfoque Recomendado |
+| :--- | :--- | :--- | :--- |
+| **Claro / Simple** | Causa y efecto directos y predecibles. | **Percibir → Categorizar → Responder**: Aplicar mejores prácticas estándar. | **Predictivo / Cascada / Automatización** (procesos repetitivos ya dominados). |
+| **Complicado** | Requiere análisis experto; existen múltiples opciones válidas. | **Percibir → Analizar → Responder**: Consultar especialistas y evaluar alternativas técnicas. | **Gestión Técnica Especializada / Híbrido**. |
+| **Complejo** | Causa y efecto solo entendibles en retrospectiva; alta incertidumbre. | **Sondear → Percibir → Responder**: Experimentación rápida e iterativa con feedback continuo. | **Ágil Adaptativo (Scrum / Kanban)**: Desarrollo de productos de software. |
+| **Caótico** | Sin relación causa-efecto clara; crisis o incidentes mayores. | **Actuar → Percibe → Responde**: Contener el daño de inmediato y restablecer orden. | **Gestión de Crisis / SRE On-call**. |
+
+---
+
 ## "Hacer" Agile vs. "Ser" Agile: La Cultura del Empirismo
 
 ```mermaid
 graph TD
-    A[Hacer Agile - Visibilidad Externa] --> B(Rituales: Daily, Planning, Review)
+    A[Hacer Agile - Visibilidad Externa<br/><i>~20% de Beneficio</i>] --> B(Rituales: Daily, Planning, Review)
     A --> C(Artefactos: Backlog, Tableros Kanban)
     A --> D(Herramientas: Jira, Linear)
     
-    E[Ser Agile - Mentalidad Cultural] --> F(Pilares del Control de Procesos Empíricos)
+    E[Ser Agile - Mentalidad Cultural<br/><i>~200% de Beneficio</i>] --> F(Pilares del Control de Procesos Empíricos)
     F --> F1(Transparencia: Procesos y estados visibles para todos)
     F --> F2(Inspección: Evaluación constante de los entregables y métodos)
     F --> F3(Adaptación: Ajuste inmediato ante desvíos o feedback)
+    F --> F4(Liderazgo y Seguridad Psicológica en todos los niveles)
 ```
 
-* **Hacer Agile (Prácticas y Procesos):** Seguir mecánicamente los rituales (ej. Daily Standup de 15 minutos, Sprints de dos semanas). Es fácil de implementar pero inútil si la cultura de base no cambia.
-* **Ser Agile (Mentalidad y Valores):** Adoptar el control de procesos empírico. Se basa en que las decisiones se toman a partir de hechos observados y la experiencia real, no en predicciones iniciales.
+* **Hacer Agile (*Doing Agile* - Prácticas):** Seguir mecánicamente los rituales (ej. Daily Standup de 15 minutos, Sprints de dos semanas). Aporta un **beneficio inicial (~20%)** mejorando visibilidad y comunicación básica, pero es insuficiente si la cultura organizacional se mantiene en "Comando y Control".
+* **Ser Agile (*Being Agile* - Mindset & Cultura):** Adoptar el control de procesos empírico y el liderazgo distribuido. Aporta un **impacto transformador (~200%)**, impulsando la satisfacción del cliente, la eliminación de desperdicio (*waste*) y el aprendizaje continuo.
 
 ---
 
