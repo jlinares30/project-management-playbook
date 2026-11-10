@@ -15,14 +15,18 @@ Bienvenido a tu repositorio centralizado de conocimiento. Este playbook reúne m
 ├── 01-agile-frameworks/           # Metodologías y Entrega de Valor
 │   ├── agile-culture-fundamentals.md # Fundamentos ágiles, cultura y roles
 │   ├── scrum-and-kanban.md        # Roles, ceremonias y cuándo usar cada flujo
-│   ├── user-stories-discovery.md  # Criterios de aceptación (Gherkin/BDD) y Story Mapping
-│   ├── agile-metrics.md           # Velocity, Lead Time, Cycle Time y Burn-down charts
-│   └── agile-schedule-management.md # Release Plan, precedencias y dependencias de cronograma
+│   ├── user-stories-discovery.md  # Criterios de aceptación (Gherkin/BDD), Story Mapping, DoD y wireframes
+│   ├── agile-metrics.md           # Velocity, Lead Time, Cycle Time, Throughput, Ley de Little y Burn-down
+│   ├── agile-schedule-management.md # Release Plan, planificación adaptativa, Planning Poker y dependencias
+│   ├── value-driven-prioritization.md # Categorías de valor, MoSCoW, Valor vs. Costo y WSJF
+│   ├── collaboration-design-thinking.md # Visión compartida, talleres, brainstorming y Design Thinking
+│   ├── lean-startup-inception.md  # Construir-Medir-Aprender, MVP, Agile y Lean Inception
+│   └── kanban-method-statik.md    # Pull, cadencias, clases de servicio, STATIK, Scrumban y TOC
 ├── 02-project-planning/           # Gestión del Alcance y Gobernanza
 │   ├── agile-integration-management.md # Project Charter ágil, planes híbridos y lecciones
 │   ├── scope-and-wbs.md           # Estructura de Desglose de Trabajo (EDT/WBS) y MVP
 │   ├── agile-cost-management.md   # Estimación Top-down, capacity-based pricing y Agile EVM
-│   ├── agile-resource-management.md # Células multifuncionales y Servant Leadership
+│   ├── agile-resource-management.md # Células multifuncionales, Servant Leadership y equipos de alto rendimiento
 │   ├── roles-and-glossary.md      # Comparación de roles (PMBOK vs Agile) y glosario cruzado
 │   ├── risk-management.md         # Matriz de riesgos (Mitigación de fallas en proyectos)
 │   ├── stakeholders-comm.md       # Gestión de expectativas y reportes de estado

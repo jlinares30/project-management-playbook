@@ -53,3 +53,37 @@ Muestra el trabajo completado en comparación con el alcance total a lo largo de
 Muestra la cantidad de tareas en cada estado del tablero Kanban a lo largo del tiempo.
 * **Bandas paralelas**: Indican un flujo de trabajo estable y saludable.
 * **Banda ensanchándose (WIP grande)**: Alerta de un cuello de botella en ese estado específico (ej. muchas tareas acumuladas en QA esperando revisión).
+
+---
+
+## Throughput y Eficiencia de Flujo
+
+* **Throughput (Rendimiento)**: número de ítems finalizados por unidad de tiempo (ej. 15 ítems completados en un mes). Es el equivalente en Kanban a la Velocity, pero cuenta ítems terminados en lugar de puntos.
+* **Touch Time (Tiempo de Toque)**: tiempo en que alguien trabajó realmente en el ítem, descontando esperas y bloqueos.
+* **Eficiencia de Flujo**: `Touch Time ÷ Lead Time`. Indica qué porcentaje del tiempo total el ítem estuvo siendo trabajado y no esperando.
+
+### Recopilación de Métricas por Ítem
+
+Basta con registrar tres fechas por tarjeta para obtener todas las métricas de flujo:
+
+| ID | Solicitud | Inicio | Fin | Días en espera | Lead Time | Cycle Time | Touch Time |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| 23 | 3 ago | 5 ago | 12 ago | 3 | 9 días | 7 días | 4 días |
+
+Eficiencia de flujo = 4 ÷ 9 ≈ 44 %. El mayor potencial de mejora suele estar en reducir las esperas, no en trabajar más rápido.
+
+---
+
+## Ley de Little
+
+Proviene de la Teoría de Colas y relaciona las tres métricas de flujo:
+
+```text
+Lead Time promedio = WIP promedio ÷ Throughput promedio
+```
+
+* **A mayor WIP, mayor Lead Time:** empezar muchas tareas para que el proyecto "avance" o para lograr una alta utilización de las personas produce el efecto contrario; todo tarda más en terminarse.
+* **A mayor Throughput, menor Lead Time.**
+* **Predicción:** con 50 requisitos pendientes y una capacidad de 5 por semana, el plazo esperado es 50 ÷ 5 = 10 semanas.
+
+Es el fundamento cuantitativo de limitar el WIP. Su aplicación al diseño de tableros y al análisis de cuellos de botella está en [El Método Kanban](kanban-method-statik.md).

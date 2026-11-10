@@ -66,6 +66,60 @@ En la gestión tradicional, primero se definen las actividades y luego se estima
 
 ---
 
+## Planificación Adaptativa
+
+La planificación ágil difiere de la tradicional en tres aspectos: los verdaderos requisitos se descubren mediante prueba y demostración (lo que obliga a replanificar), el esfuerzo de planificación se distribuye a lo largo del proyecto en lugar de concentrarse al inicio, y los ajustes a mitad de camino son la norma. Esto responde a que el desarrollo de software es un trabajo **complejo** (incierto, rara vez repetible) y no solo **complicado** (predecible e industrializable).
+
+### Principios
+
+1. **Planificar a múltiples niveles** con *elaboración progresiva* y *planificación por oleadas* (rolling wave): se detalla el siguiente Sprint y solo se esbozan los meses siguientes.
+2. **Planificación transparente y participativa:** involucrar al equipo y a los interesados clave, apoyándose en radiadores de información.
+3. **Gestionar expectativas de forma continua:** demostrar progreso con frecuencia y extrapolar la velocidad real.
+4. **Ajustar la cadencia de planificación** según los resultados, la velocidad del equipo y los cambios del mercado.
+5. **Inspeccionar y adaptar** el plan ante cada evento relevante (entregas, incidentes, cambios de contexto).
+6. **Dimensionar antes de planificar:** estimar el tamaño de los ítems antes de agendarlos.
+7. **Usar rangos y datos reales:** expresar las estimaciones en rangos que reflejen la incertidumbre (incluyendo riesgos y disponibilidad del equipo) y refinarlos con evidencia empírica.
+
+### Elaboración Progresiva y Timeboxing
+
+* **Elaboración progresiva:** añadir detalle a medida que surge nueva información. Se aplica a planes, estimaciones, evaluaciones de riesgo, requisitos, diseños de arquitectura, criterios de aceptación y escenarios de prueba.
+* **Timeboxing:** período corto y fijo en el que se realiza un trabajo definido. Si el trabajo no se completa, se detiene y lo pendiente pasa a otra caja de tiempo. Es el mecanismo que permite fijar tiempo y costo y variar el alcance.
+
+| Caja de tiempo | Duración típica |
+| :--- | :--- |
+| Daily Stand-up | 15 minutos |
+| Retrospectiva | Hasta 2 horas |
+| Iteración / Sprint | 1 a 4 semanas |
+
+### Secuencia: Dimensionar, Estimar, Planificar
+
+```text
+[Requisitos] ──> [1. TAMAÑO] ──────> [2. ESTIMACIÓN] ────────> [3. PLAN]
+                 Puntos de historia   Tamaño ÷ velocidad         Release Plan
+                 (esfuerzo relativo)  = duración y costo         e iteraciones
+```
+
+El tamaño es relativo y estable; la duración se deriva de la velocidad medida, por lo que el plan mejora solo conforme se acumulan datos reales.
+
+---
+
+## Planning Poker
+
+Técnica de estimación por consenso en **puntos de historia**, una medida abstracta del esfuerzo que combina la cantidad de trabajo, la complejidad y el riesgo o incertidumbre. Usa cartas con una secuencia de Fibonacci modificada (1, 2, 3, 5, 8, 13, 20, 40, 100).
+
+**Desarrollo de la sesión:**
+
+1. El moderador (normalmente el Scrum Master) presenta la historia y el equipo resuelve dudas con el Product Owner.
+2. Cada participante elige una carta de forma individual y privada.
+3. Todos revelan su carta al mismo tiempo.
+4. Si coinciden, se asigna ese valor.
+5. Si difieren, quienes dieron el valor más bajo y el más alto justifican su elección.
+6. Se vuelve a estimar hasta alcanzar el consenso.
+
+**Por qué funciona:** la votación simultánea evita el sesgo de anclaje, y la falta de consenso es en sí misma información valiosa: revela incertidumbre técnica o una historia mal comprendida. Alternativa más rápida para backlogs grandes: *T-shirt sizing* (XS, S, M, L, XL).
+
+---
+
 > [!TIP]
 > **Pregunta de Entrevista de Big Tech (Engineering & Project Leadership)**  
 > *Tu equipo de desarrollo tiene una velocidad constante de 30 puntos por Sprint. El Product Owner quiere comprometer una fecha de lanzamiento fija de aquí a 4 Sprints (120 puntos de alcance total). Sin embargo, el backlog actual de la release tiene 150 puntos de historia estimados y hay dependencias externas críticas de un equipo de plataforma que está saturado. ¿Cómo gestionarías este cronograma?*

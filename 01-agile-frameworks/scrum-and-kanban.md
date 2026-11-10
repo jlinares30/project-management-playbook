@@ -42,6 +42,8 @@ Kanban se centra en optimizar el flujo de valor a través de la visualización d
 * **Gestionar el flujo**: Medir e inspeccionar constantemente la forma en que el trabajo se mueve a través del tablero.
 * **Políticas explícitas**: Definir criterios claros de entrada y salida para cada columna (Definition of Done parciales o acuerdos de nivel de servicio).
 
+> El método completo (sistema *pull*, cadencias, clases de servicio, diseño del sistema con STATIK y la combinación Scrumban) se desarrolla en [El Método Kanban: Servicios, STATIK y Scrumban](kanban-method-statik.md).
+
 ---
 
 ## Cuándo usar Scrum vs. Kanban: Guía de Selección

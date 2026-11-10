@@ -6,6 +6,7 @@ Este glosario centraliza los términos clave utilizados a lo largo de este playb
 
 ## A
 
+* **[AARRR (Métricas Pirata)](01-agile-frameworks/lean-startup-inception.md)**: Embudo de Adquisición, Activación, Retención, Ingresos y Recomendación usado para medir la respuesta del mercado a un MVP.
 * **[Aseguramiento de la Calidad (QA)](03-software-quality-standards/agile-quality-management.md)**: Enfoque preventivo orientado a procesos para evitar que surjan defectos en el código.
 * **[Agile EVM (Earned Value Management)](02-project-planning/agile-cost-management.md)**: Técnica adaptativa para medir el progreso real del proyecto comparando los puntos de historia completados frente al Release Plan.
 * **[Agile Portfolio Management (APM)](02-project-planning/agile-portfolio-management.md)**: Práctica para seleccionar, priorizar, financiar y supervisar un conjunto de iniciativas alineadas con la estrategia organizacional.
@@ -25,16 +26,20 @@ Este glosario centraliza los términos clave utilizados a lo largo de este playb
 * **[Costo de la Calidad (CoQ)](03-software-quality-standards/quality-fundamentals-gurus.md)**: Marco financiero que calcula el costo en el que incurre una organización por no realizar correctamente el trabajo a la primera, englobando costos de prevención, evaluación, fallas internas y externas.
 * **[Control de Calidad (QC)](03-software-quality-standards/agile-quality-management.md)**: Práctica correctiva orientada a producto enfocada en la detección e inspección de errores en software ya construido.
 * **[Chapter](02-project-planning/agile-portfolio-management.md#a-spotify-estructura-de-squads-y-tribus)**: Grupo transversal dentro de una Tribu en el modelo Spotify que reúne personas con el mismo rol técnico.
+* **[Clases de Servicio](01-agile-frameworks/kanban-method-statik.md)**: Clasificación de los ítems de trabajo en Kanban (Expedito, Fecha fija, Estándar, Intangible) que define políticas de atención distintas según su costo de la demora.
+* **[Costo de la Demora (Cost of Delay)](01-agile-frameworks/kanban-method-statik.md)**: Impacto económico de retrasar la entrega de un ítem; criterio base para asignar clases de servicio y calcular el WSJF.
 * **[Cycle Time (Tiempo de Ciclo)](01-agile-frameworks/agile-metrics.md)**: Tiempo total transcurrido desde que el equipo comienza a trabajar activamente en una tarea hasta que se completa.
 
 ## D
 
-* **[Definition of Done (DoD)](01-agile-frameworks/scrum-and-kanban.md)**: Conjunto de criterios de calidad explícitos y acordados que debe cumplir una historia de usuario para considerarse completada.
+* **[Definition of Done (DoD)](01-agile-frameworks/user-stories-discovery.md)**: Conjunto de criterios de calidad explícitos y acordados que debe cumplir una historia de usuario para considerarse completada.
+* **[Design Thinking](01-agile-frameworks/collaboration-design-thinking.md)**: Metodología de innovación centrada en el usuario que avanza por cinco fases: empatizar, definir, idear, prototipar y probar.
 * **[Dependencia Obligatoria](01-agile-frameworks/agile-schedule-management.md)**: Relación secuencial ineludible por la naturaleza física o lógica del desarrollo de software.
 
 ## E
 
 * **[EDT / WBS (Estructura de Desglose de Trabajo)](02-project-planning/scope-and-wbs.md)**: Descomposición jerárquica orientada al entregable de todo el trabajo necesario para completar el proyecto.
+* **[Elaboración Progresiva](01-agile-frameworks/agile-schedule-management.md)**: Práctica de añadir detalle a planes, estimaciones y requisitos a medida que surge nueva información, en lugar de definirlo todo al inicio.
 * **[Epic (Épica)](01-agile-frameworks/user-stories-discovery.md)**: Historia de usuario muy grande que debe ser desglosada en tareas más pequeñas para poder completarse en un único Sprint.
 
 ## G
@@ -55,17 +60,23 @@ Este glosario centraliza los términos clave utilizados a lo largo de este playb
 ## L
 
 * **[Lead Time (Tiempo de Entrega)](01-agile-frameworks/agile-metrics.md)**: Tiempo transcurrido desde que una solicitud o idea ingresa al backlog hasta que se entrega en producción al usuario.
+* **[Lean Inception](01-agile-frameworks/lean-startup-inception.md)**: Taller colaborativo corto, propuesto por Paulo Caroli, cuyo resultado es la comprensión compartida del MVP y de su orden de entrega.
+* **[Lean Startup](01-agile-frameworks/lean-startup-inception.md)**: Enfoque de Eric Ries para crear productos bajo incertidumbre mediante el ciclo Construir-Medir-Aprender y el aprendizaje validado.
+* **[Ley de Little](01-agile-frameworks/agile-metrics.md#ley-de-little)**: Relación de la Teoría de Colas según la cual el Lead Time promedio es igual al WIP dividido entre el Throughput.
 * **[Líder Sirviente (Servant Leader)](02-project-planning/agile-resource-management.md)**: Filosofía de liderazgo enfocada en habilitar el éxito del equipo, remover impedimentos y facilitar su crecimiento en lugar de ejercer control autoritario.
 
 ## M
 
 * **[MVP (Producto Mínimo Viable)](02-project-planning/scope-and-wbs.md)**: Enfoque de Henrik Kniberg orientado a entregar la versión de producto más pequeña que sea Testable, Usable y Lovable para validar hipótesis comerciales.
+* **[MoSCoW](01-agile-frameworks/value-driven-prioritization.md)**: Técnica de priorización que clasifica los requisitos en Must, Should, Could y Won't según su valor para el cliente.
+* **[Mura y Muri](01-agile-frameworks/kanban-method-statik.md)**: Variabilidad (Mura) y sobrecarga (Muri); junto con Muda forman las "3 M" de Lean y son fuentes internas de insatisfacción en STATIK.
 * **[Muda (Desperdicio)](01-agile-frameworks/scrum-and-kanban.md#lean-kanban-y-la-eliminacion-de-desperdicios-muda)**: Término Lean que representa cualquier actividad en el flujo de valor que consume recursos sin aportar valor al cliente final.
 
 ## P
 
 * **[Post-Mortem (Blameless)](05-case-studies-templates/post-mortem-template.md)**: Plantilla y proceso de análisis retrospectivo enfocado en identificar las causas raíz de fallas en producción sin buscar culpables individuales.
 * **[PI Planning (SAFe)](02-project-planning/agile-portfolio-management.md#5-marcos-de-planificación-pi-planning-safe)**: Evento periódico de planificación y alineación cross-team de dos días para el incremento de programa.
+* **[Planning Poker](01-agile-frameworks/agile-schedule-management.md#planning-poker)**: Técnica de estimación por consenso en la que el equipo vota simultáneamente con cartas de Fibonacci el esfuerzo relativo de cada historia.
 * **[Project Charter Dinámico](02-project-planning/agile-integration-management.md)**: Acta de constitución de proyecto ágil que actúa como un artefacto vivo enfocado en la visión y metas, permitiendo flexibilidad de alcance.
 
 ## R
@@ -76,11 +87,18 @@ Este glosario centraliza los términos clave utilizados a lo largo de este playb
 
 ## S
 
+* **[Scrumban](01-agile-frameworks/kanban-method-statik.md#scrumban)**: Enfoque híbrido que conserva roles y reuniones de Scrum y añade el flujo pull, los límites WIP y las métricas de flujo de Kanban.
+* **[Sistema Pull](01-agile-frameworks/kanban-method-statik.md#push-vs-pull)**: Sistema en el que cada etapa toma trabajo nuevo solo cuando tiene capacidad disponible, en lugar de recibirlo empujado por la etapa anterior.
+* **[SMART](02-project-planning/agile-resource-management.md#objetivos-smart)**: Criterios para formular objetivos Específicos, Medibles, Alcanzables, Relevantes y con plazo Temporal.
+* **[STATIK](01-agile-frameworks/kanban-method-statik.md)**: *Systems Thinking Approach to Introducing Kanban*; método por pasos para diseñar un sistema Kanban a partir de la demanda, la capacidad y las fuentes de insatisfacción.
 * **[SGSI (Sistema de Gestión de la Seguridad de la Información)](03-software-quality-standards/information-security-iso27001.md)**: Conjunto de políticas y procedimientos basados en la norma ISO/IEC 27001 orientados a gestionar, controlar y mitigar de forma sistemática los riesgos de seguridad sobre los activos de información.
 * **[Squad](02-project-planning/agile-portfolio-management.md#a-spotify-estructura-de-squads-y-tribus)**: Célula autónoma y multidisciplinaria de 6 a 12 personas con una misión clara dentro del modelo Spotify.
 
 ## T
 
+* **[Teoría de Restricciones (TOC)](01-agile-frameworks/kanban-method-statik.md)**: Enfoque de Goldratt que mejora un sistema actuando sobre su cuello de botella mediante cinco pasos: identificar, explotar, subordinar, elevar y repetir.
+* **[Throughput (Rendimiento)](01-agile-frameworks/agile-metrics.md)**: Número de ítems de trabajo finalizados por unidad de tiempo.
+* **[Timeboxing](01-agile-frameworks/agile-schedule-management.md)**: Asignación de un período fijo e improrrogable a una actividad; lo no terminado pasa a la siguiente caja de tiempo.
 * **[Tribu (Tribe)](02-project-planning/agile-portfolio-management.md#a-spotify-estructura-de-squads-y-tribus)**: Colección de Squads autónomos que trabajan en un área de negocio relacionada en el modelo Spotify.
 * **[Tríada CIA](03-software-quality-standards/information-security-iso27001.md)**: El pilar fundamental de la seguridad de la información compuesto por tres principios básicos: Confidencialidad, Integridad y Disponibilidad.
 * **[Transferencia de Conocimiento Tácito](02-project-planning/agile-integration-management.md)**: El intercambio de habilidades complejas y "know-how" no documentables mediante interacciones directas como pair programming o code reviews.

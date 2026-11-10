@@ -72,3 +72,34 @@ And (Y) presiona el botón "Aplicar"
 Then (Entonces) el sistema no debe modificar el total del carrito
 And (Y) debe mostrar un mensaje de error: "El cupón ingresado ha expirado"
 ```
+
+---
+
+## Definition of Done (DoD) vs. Criterios de Aceptación
+
+| | Criterios de Aceptación | Definition of Done |
+| :--- | :--- | :--- |
+| **Alcance** | Específicos de **una** historia de usuario. | Comunes a **todas** las historias del equipo. |
+| **Responde a** | ¿Hace lo que el usuario necesita? | ¿Está realmente terminada y con la calidad acordada? |
+| **Quién los define** | Product Owner con el equipo. | El equipo, como acuerdo con los stakeholders. |
+
+La DoD funciona como un contrato que elimina la ambigüedad sobre cuándo una tarea está terminada. Sus componentes habituales:
+
+| Componente | Ejemplos |
+| :--- | :--- |
+| **Criterios técnicos** | Pruebas unitarias completadas, integración verificada, revisión de código aprobada por pares. |
+| **Criterios de calidad** | Sin errores críticos, documentación técnica actualizada. |
+| **Criterios de negocio** | Funcionalidad completa según los requisitos, aceptación formal del Product Owner. |
+| **Criterios de usabilidad** | Funcionamiento correcto en los dispositivos y navegadores soportados. |
+
+---
+
+## Wireframes y Maquetas: Validar antes de Construir
+
+| | Wireframe | Maqueta (Mockup) |
+| :--- | :--- | :--- |
+| **Nivel de detalle** | Bajo: esqueleto estructural de la interfaz. | Alto: colores, tipografía y aspecto cercano al producto final. |
+| **Foco** | Disposición de elementos y funcionalidad básica. | Diseño visual. |
+| **Cuándo** | Al explorar y discutir la historia. | Antes de implementar la interfaz. |
+
+Mostrarlos al usuario permite validar conceptos antes de invertir en desarrollo, recoger feedback cuando los cambios son baratos, iterar rápido y alinear las expectativas del equipo y del cliente. Otras técnicas de descubrimiento (personas, mapa de empatía, journey map) están en [Trabajo Colaborativo y Design Thinking](collaboration-design-thinking.md).

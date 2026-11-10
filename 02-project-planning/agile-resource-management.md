@@ -41,6 +41,98 @@ graph TD
 
 ---
 
+## Grupo vs. Equipo
+
+Lo que distingue a un equipo de un grupo es su grado de **interdependencia y cohesión**. Un equipo:
+
+* Comparte una misión, metas y expectativas.
+* Distribuye el trabajo según habilidades y competencias.
+* Comparte la responsabilidad sobre los resultados.
+* Se comunica de forma horizontal, se autoorganiza y resuelve sus propios problemas.
+* Mantiene la continuidad de sus miembros como un activo para asegurar resultados.
+
+### Gestión Centralizada vs. Distribuida (PMBOK 7)
+
+| | Gestión centralizada | Gestión distribuida |
+| :--- | :--- | :--- |
+| **Rendición de cuentas** | Recae en una persona (jefe de proyecto o rol similar). | Compartida por el equipo. |
+| **Liderazgo** | Autoridad designada. | Un facilitador habilita la comunicación y la colaboración; el rol puede rotar entre miembros. |
+| **Estilo asociado** | Dirección y control. | Liderazgo de servicio. |
+
+Preguntas con las que un líder de servicio evalúa su propio trabajo: ¿están creciendo los miembros del equipo como individuos?, ¿son más saludables, sabios, libres y autónomos?, ¿es probable que ellos mismos se conviertan en líderes de servicio?
+
+---
+
+## Bases Comunes del Desarrollo de Equipos
+
+1. **Visión y objetivos:** todos conocen la visión, y esta se usa como referencia al tomar decisiones y resolver problemas.
+2. **Roles y responsabilidades:** cada miembro entiende su función; se identifican y cierran brechas de conocimiento y habilidades.
+3. **Operaciones del equipo:** un **acta del equipo** (*team charter*) y normas de trabajo facilitan la comunicación, la resolución de problemas y el consenso.
+4. **Orientación:** mantener a todos en la dirección correcta; también los miembros se orientan entre sí.
+5. **Crecimiento:** señalar qué funciona bien y qué puede mejorar, y fijar objetivos de mejora en conjunto.
+
+La cultura del equipo se establece deliberadamente (normas) o informalmente (comportamientos), y opera dentro de la cultura de la organización.
+
+### Objetivos SMART
+
+| Letra | Criterio | Pregunta |
+| :---: | :--- | :--- |
+| **S** | Específico | ¿Qué quiero lograr, para quién y dónde? |
+| **M** | Medible | ¿Cómo sabré que se cumplió? |
+| **A** | Alcanzable | ¿Es realista considerando las limitaciones? |
+| **R** | Relevante | ¿Por qué es importante ahora? |
+| **T** | Temporal | ¿En cuánto tiempo? |
+
+*Ejemplo:* "Tener un prototipo navegable de la app validado con 5 vecinos y 2 recicladores para la semana 8."
+
+### Plantilla de Acta del Equipo
+
+| Elemento | Contenido |
+| :--- | :--- |
+| **Misión** | Propósito del equipo y del proyecto. |
+| **Roles** | Product Owner, Scrum Master, desarrolladores, etc. |
+| **Objetivo SMART** | Meta principal del proyecto. |
+| **Autoevaluación (1–5)** | Confianza, comunicación abierta y compromiso. |
+| **Fortalezas y riesgos** | Ej. *F:* el equipo ya se conoce. *R:* nadie tiene experiencia en UX. |
+
+Un equipo que se autoevalúa bajo pero con honestidad está mejor que uno que finge estar bien.
+
+---
+
+## Equipos de Alto Rendimiento
+
+**Factores que los sostienen:** entendimiento y propiedad compartidos, complementariedad, coordinación, comunicación abierta, confianza, compromiso, adaptabilidad, reconocimiento y empoderamiento. En los estudios de productividad de equipos ágiles, la capacidad de las personas y la cohesión del equipo pesan más que la simplicidad técnica o la experiencia previa.
+
+### Las 5 Disfunciones de un Equipo (Lencioni)
+
+Cada disfunción se apoya en la anterior; la base de todas es la falta de confianza.
+
+```text
+            /   Desatención a los resultados   \
+           /     Falta de responsabilidad       \
+          /        Falta de compromiso           \
+         /         Miedo al conflicto             \
+        /          Falta de confianza              \
+```
+
+### Habilidades de Liderazgo para Todo el Equipo
+
+Son útiles para todos los miembros, exista o no una autoridad centralizada.
+
+* **Escucha activa:** escuchar con mentalidad abierta y hasta que el otro termine, atender a cómo se dicen las cosas, respetar las pausas y dar feedback.
+* **Pensamiento crítico:** cuestionar propósitos, datos, supuestos, inferencias, conceptos, consecuencias y puntos de vista; reconocer sesgos y buscar la causa raíz.
+* **Motivación:** primero entender qué motiva a cada persona y luego trabajar para sostener su compromiso. Predominan los motivadores intrínsecos: logro, desafío, creencia en el trabajo, autonomía, responsabilidad, crecimiento y pertenencia.
+
+### Verificación: ¿Ya Tengo un Equipo?
+
+| Resultado esperado | Cómo comprobarlo |
+| :--- | :--- |
+| **Propiedad compartida** | Todos conocen la visión y los objetivos; el equipo se siente dueño de los entregables y resultados. |
+| **Alto rendimiento** | Hay confianza y colaboración; el equipo se adapta, es resiliente y reconoce a sus miembros. |
+| **Liderazgo y habilidades interpersonales** | Todos aplican pensamiento crítico; los estilos de liderazgo se ajustan al contexto. |
+
+---
+
 ## Los 5 Valores de Scrum
 
 Los marcos de trabajo ágiles se sostienen sobre valores culturales que guían el comportamiento colectivo:
